@@ -84,7 +84,6 @@ button {
 
 button:hover {
     background-color: #2b5fad;
-    padding: 2% 5%;
 }
 
 .inside.random-info {
@@ -144,4 +143,43 @@ button:hover {
     font-size: 23px;
     font-weight: bold;
     /* font-weight: 300; */
+}
+
+.inside.CTA {
+    padding: 6% 10%;
+}
+
+.inside.CTA > div   {
+    background-color: #3883f6;
+    border-radius: 10px;
+}
+
+.CTA-banner {
+    padding: 4% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CTA-banner h3  {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: -0.5em;
+}
+
+.CTA-banner p  {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.CTA-item > button  {
+    border: solid white;
+    padding:    10px 40px;
+    color: white;
+}
+
+.CTA-item > button:hover {
+    background-color: #ffffff;
+    color: #2b5fad;
 }
