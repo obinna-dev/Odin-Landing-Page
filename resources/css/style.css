@@ -183,3 +183,11 @@ button:hover {
     background-color: #ffffff;
     color: #2b5fad;
 }
+
+footer  {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
