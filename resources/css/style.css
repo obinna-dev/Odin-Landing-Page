@@ -85,3 +85,34 @@ button:hover {
     background-color: #2b5fad;
     padding: 2% 5%;
 }
+
+.inside.random-info {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.inside.random-info > div > h2  {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.random-info-container  {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+}
+
+.info-item  {
+    padding: 0px;
+    text-align: center;
+}
+
+.info-item img  {
+    max-width: 100%;
+}
+
