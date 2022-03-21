@@ -19,9 +19,10 @@ body    {
     background-color: #1f2937;
 }
 
-.nav-item > h3  {
+.nav-item > h3 > a {
     font-size: 24px;
     color: #f9faf8;
+    text-decoration: none;
 }
 
 .nav-item > a   {
@@ -89,8 +90,8 @@ button:hover {
 .inside.random-info {
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 3%;
+    padding-bottom: 6%;
 }
 
 .inside.random-info > div > h2  {
@@ -98,6 +99,7 @@ button:hover {
     font-weight: bolder;
     color: #1f2937;
     text-align: center;
+    padding-bottom: 0.5em;
 }
 
 .random-info-container  {
@@ -116,3 +118,30 @@ button:hover {
     max-width: 100%;
 }
 
+.inside.quote   {
+    background-color: #e5e7eb;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.inside.quote > div {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.inside.quote > div > p   {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.inside.quote > div > h5   {
+    /* font-size: 36px; */
+    color: #1f2937;
+    text-align: right;
+    font-size: 23px;
+    font-weight: bold;
+    /* font-weight: 300; */
+}
